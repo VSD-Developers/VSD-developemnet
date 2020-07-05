@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" method="">
+      <label for="Name">First Name</label>
+      <input type="text" name="name" id="Name" placeholder="Name" />
+      <br />
+      <label for="pw">Password</label>
+      <input type="password" placeholder="password" id="pw" />
+      <br />
+      <input type="email" name="" id="" placeholder="E-Mail" />
+      <input type="email" name="" id="" value="Hello VJ" />
+      <br />
+      <br />
+      <p>Please Select your favourite language</p>
+      <input type="radio" name="coding" id="" value="Python" />PYTHON
+      <input type="radio" name="coding" id="" value="CPP" />CPP
+      <input type="radio" name="coding" id="" value="Java" />JAVA
+      <br />
+      <p>Please Select your favourite language</p>
+      <input type="checkbox" name="programming" id="" value="Python" />PYTHON
+      <input type="checkbox" name="programming" id="" value="CPP" />CPP
+      <input type="checkbox" name="programming" id="" value="Java" />JAVA
+      <p>Please Select your favourite language</p>
+      <select name="languages" id="">
+        <option value="CPP">CPP</option>
+        <option value="Python">Python</option>
+        <option value="JAVA">JAVA</option>
+      </select>
+      <br />
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Enter Your message"
+      ></textarea>
+      <br />
+      <!-- <button type="submit">Submit</button> -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>VSD Guide</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="menu_btn">
+            <i class="material-icons">menu</i>
+        </label>
+        <!-- <label><img class="logo" src="./Nav_name.png" alt="Vanga Padikkalam"></label> -->
+        <label class="logo">Vanga Padikkalam</label>
+        <ul>
+            <li><a class="active" href="#" onclick="check()">Home</a></li>
+            <li><a href="#about" onclick="check()">About</a></li>
+            <li><a href="#team" onclick="check()">Team</a></li>
+            <li><a href="#contact" onclick="check()">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="#">
+        <button id="gotop">
+            <i class="material-icons" id="mm">arrow_upward</i>
+        </button>
+    </a>
+    <div class="main">
+        <div id="home">
+            <img class="home_image" src="./home_logo.png" alt="logo">
+            <p>Need E-books? Need any study meterials?</p>
+            <p style="font-weight: bold;">Well, You are at the right place.</p>
+            <br>
+            <p style="font-weight: bolder;">We have the Study materials you want.</p>
+        </div>
+        
+        <div id="about">
+            About
+        </div>
+        
+        <div id="team">
+            Team
+        </div>
+
+        <div id="contact">
+            Contact
+        </div>
+    </div>
+
+    <script>
+        function check() {
+            document.getElementById("check").checked = false;
+        }
+    </script>
+</body>
+</html>
