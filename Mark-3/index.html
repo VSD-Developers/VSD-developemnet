@@ -22,7 +22,7 @@
             <li><a class="active" href="#" onclick="check()">Home</a></li>
             <li><a href="#about" onclick="check()">About</a></li>
             <li><a href="#team" onclick="check()">Team</a></li>
-            <li><a href="#contact" onclick="check()">Contact</a></li>
+            <li><a href="#content" onclick="check()">Subjects</a></li>
         </ul>
     </nav>
     <a href="#">
@@ -45,7 +45,7 @@
         <div id="team">
             <!-- <p style="z-index: 0;">team</p> -->
             <h1 style="color: white;">Behind The Screens</h1>
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-touch="true" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-touch="true" data-ride="false">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -62,16 +62,16 @@
                             <p style="font-weight: lighter;color: black;" id='thanos_desc'>Web-Developer</p>
                         </div>
                       </div>
-                                      <div class="carousel-item">
-                    <div class="mycard">
-                        <div class="upcard">
-                            <!-- <img src="./Team_bg.jpg" width="100%" height="100%" alt=""> -->
+                    <div class="carousel-item">
+                        <div class="mycard">
+                            <div class="upcard">
+                                <!-- <img src="./Team_bg.jpg" width="100%" height="100%" alt=""> -->
+                            </div>
+                            <img id="sri_img" style="border-radius: 100%;" src="./Sri_bg.jpg" width="45%" height="45%" alt="">
+                            <h3 id='sri_name' style="color: black;">Sri Raam.V.G</h3>
+                            <p style="font-weight: lighter;color: black;" id='thanos_desc'>Web-Developer</p>
                         </div>
-                        <img id="sri_img" style="border-radius: 100%;" src="./Sri_bg.jpg" width="45%" height="45%" alt="">
-                        <h3 id='sri_name' style="color: black;">Sri Raam.V.G</h3>
-                        <p style="font-weight: lighter;color: black;" id='thanos_desc'>Web-Developer</p>
                     </div>
-                  </div>
                   <div class="carousel-item">
                     <div class="mycard">
                         <div class="upcard">
@@ -94,8 +94,32 @@
               </div>
         </div>
 
-        <div id="contact">
-            Contact
+        <div id="content">
+            <h1>Study Materials for 12th standard</h1>
+            <ul class="content_list">
+                <li>தமிழ்</li>
+                <li>English</li>
+                <li>Mathematics</li>
+                <li>Physics</li>
+            </ul>
+            <ul class="content_list" id="content2">
+                <li>Chemistry</li>
+                <li>CSC</li>
+                <li>Botany</li>
+                <li>Zoology</li>
+            </ul>
+            <ul class="content_list_resp">
+                <li>தமிழ்</li>
+                <li>English</li>
+                <li>Mathematics</li>
+                <li>Physics</li>
+            </ul>
+            <ul class="content_list_resp" id="content2_resp">
+                <li>Chemistry</li>
+                <li>CSC</li>
+                <li>Botany</li>
+                <li>Zoology</li>
+            </ul>
         </div>
     </div>
 

@@ -269,10 +269,42 @@ img{
     margin-bottom: 10px;
 }
 
-#contact{
+#content{
     width: 100%;
     height: 100vh;
-    background-color: green;
+    background: url("https://ae01.alicdn.com/kf/HTB1yqI0XZvrK1Rjy0Feq6ATmVXac/Laeacco-Books-Wooden-Bookshelf-Library-Study-Bokeh-Child-Portrait-Photography-Backdrops-Photo-Backgrounds-Photocall-Photo-Studio.jpg") no-repeat center/cover;
+    color: #ffffff;
+    /* background-size: 100% 100vh; */
+}
+
+#content h1{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    padding: 2rem 0;
+}
+
+.content_list li{
+    padding: 1rem;
+    margin: 3rem;
+    font-size: x-large;
+    width: 15%;
+    background-color: #3A3042;
+    font-weight: bold;
+    border-radius: 15%;
+}
+
+#content2{
+    width: 75vw;
+    transform: translateX(20rem) translateY(-29rem);
+}
+
+#content2 li{
+    width: 20%;
+}
+
+.content_list_resp{
+    display: none;
 }
 
 /* button{
@@ -302,6 +334,36 @@ button:hover{
 }
 
 @media (max-width:858px){
+    #content h1{
+        margin-bottom: 3rem;
+    }
+
+    .content_list{
+        display: none;
+    }
+
+    .content_list_resp{
+        display: block;
+    }
+
+    .content_list_resp li{
+        display: block;
+        background-color: rgb(58, 48, 66, 0.9);
+        width: 40%;
+        padding: 1rem;
+        margin: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #content2_resp{
+        transform: translateY(-20rem) translateX(11rem);
+    }
+
+    #content2_resp{
+        width: 10rem;
+    }
+
+
     #vj_img,#sri_img,#Thanos_img{
     border-radius: 100%;
     height: 7.5rem;
@@ -354,7 +416,7 @@ button:hover{
         z-index: 9999999;
     }
 
-    ul{
+    nav ul{
         position: fixed;
         width: 100%;
         height: 100vh;
