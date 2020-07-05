@@ -62,7 +62,7 @@ nav ul li a{
     margin-right: 10px;
 }
 
-a.active,a:hover{
+a.active,li a:hover{
     background-color: white;
     color: black;
     transition: .5s;
